@@ -1,0 +1,34 @@
+.rooms {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 250px;
+}
+.rooms label {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.rooms input {
+  text-align: center;
+  padding: 5px 12px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: 2px solid #606060;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.rooms button {
+  background-color: blue;
+  color: white;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 28px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
